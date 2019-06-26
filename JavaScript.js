@@ -1,3 +1,5 @@
+//This is a cheat sheet for javascript
+
 //LOGGING/PRINTING
 //console
 console.log('Hello World');
