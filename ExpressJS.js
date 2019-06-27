@@ -11,7 +11,6 @@ npm start    //start the server on localhost:3000
 
 
 
-
 //IN THE app.js FILE
 //install nodemon as a development dependency
 npm install -D nodemon
@@ -30,6 +29,9 @@ app.use(bodyParser.urlencoded({extended: false}))
 app.use(cors());     //has to be used before the data accessing methods
 
 app.use('/users', usersRouter);
+
+
+
 
 //IN THE users.js FILE
 var express = require('express');
