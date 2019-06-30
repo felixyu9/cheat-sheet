@@ -1,0 +1,38 @@
+//to clone a github repository to local drive
+git clone https://github.com/bluh
+
+//to pull the more updated repository from github
+git pull
+
+//to add files to git (local)
+git add filename
+OR
+git add .    //to add all files
+OR
+git add *.js  //to add the js files
+
+//check status of the git tree
+git status
+
+//to commit files (local)
+git commit -m "comment of this commit"
+OR
+git commit --> i -->enter comments --> press escape key --> type :wq --> press enter
+
+//push files to github
+git push
+
+//to initialize a git repository locally
+git init 
+
+//to create a new branch
+git branch branchname
+
+//to switch to the new branch
+git checkout branchname
+
+//merge branch while on master
+git merge branchname
+
+
+
