@@ -33,6 +33,13 @@ git checkout branchname
 
 //merge branch while on master
 git merge branchname
+
+//check previous commit hash code
+git log --oneline
+
+//switch to the previous commit
+git checkout previouscommithashcode
+
  
 
 
