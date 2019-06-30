@@ -33,6 +33,6 @@ git checkout branchname
 
 //merge branch while on master
 git merge branchname
-
+ 
 
 
