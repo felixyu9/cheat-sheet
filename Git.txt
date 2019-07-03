@@ -40,6 +40,18 @@ git log --oneline
 //switch to the previous commit
 git checkout previouscommithashcode
 
+//only undo one file
+git checkout previouscommithashcode filename 
+
+//link repo in github
+git remote add origin "https://github.com/blah"
+
+//git files from the linked repo
+git pull origin master
+
+
+
+
  
 
 
