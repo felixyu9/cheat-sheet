@@ -49,6 +49,25 @@ git remote add origin "https://github.com/blah"
 //git files from the linked repo
 git pull origin master
 
+//good practice when working with a team on github
+1. fork the main repo to your own remote repo
+2. clone your remote repo to your local drive
+3. create a branch to follow the main repo
+    git remote add upstream github.com/main/example_project.git
+    git fetch upstream
+    git checkout -b upstream-branch upstream/master
+4. create a branch to follow a teammate's repo
+    git remote add teammate github.com/teammate/example_project.git
+    git fetch teammate
+    git checkout -b teammate-branch teammate/master
+5. if there are changes in the main repo, pull it to the main-branch and rebase the master branch
+    git checkout upstream-branch
+    git pull upstream master
+    git checkout master
+    git rebase upstream-branch
+
+
+
 
 
 
